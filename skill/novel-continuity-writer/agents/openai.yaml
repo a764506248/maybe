@@ -1,0 +1,7 @@
+interface:
+  display_name: "小说连续推进"
+  short_description: "按世界观与双主角时间线续写、审视并维护小说章节连续性"
+  default_prompt: "Use $novel-continuity-writer to continue the current novel from its latest confirmed point."
+
+policy:
+  allow_implicit_invocation: true

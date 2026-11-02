@@ -1,0 +1,4 @@
+interface:
+  display_name: "小说审视修订循环"
+  short_description: "Review chapters and apply minimal logical revisions"
+  default_prompt: "使用 $novel-review-loop 审视当前小说正文，修复可执行问题并保留历史评分。"

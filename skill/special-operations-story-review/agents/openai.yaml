@@ -1,0 +1,4 @@
+interface:
+  display_name: "特战队员剧情审查"
+  short_description: "审查特战角色、任务权限、时间线与双主角连续性"
+  default_prompt: "使用 $special-operations-story-review 审查最新小说章节是否符合特战队员角色与世界框架。"

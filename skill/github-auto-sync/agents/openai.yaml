@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub 自动同步"
+  short_description: "初始化本地仓库并定时自动提交和推送到 GitHub 远端"
+  default_prompt: "Use $github-auto-sync to safely publish this project to GitHub and configure recurring synchronization."

@@ -20,6 +20,8 @@ In this project, prefer `rg --files` and Chinese filenames such as `第*.md`, `�
 
 Read the changed chapter, the preceding chapter, the latest relevant review record, and only the framework sections needed to check it. When checking a longer arc, also inspect chapter openings/endings and explicit dates across the whole range.
 
+For recurring checks, use modification times, hashes, Git state, and the latest review record to identify what changed. Do not re-read and re-report the whole project when no formal manuscript or canon file changed. A newly added chapter may turn an earlier risk into a concrete contradiction; in that case, re-open only the directly related material.
+
 ## Respect the authority hierarchy
 
 1. Preserve the user's explicit choices and confirmed canon.
@@ -58,6 +60,21 @@ Pay special attention to:
 - dual-protagonist cadence required by the canon;
 - duplicate chapter numbers or alternate drafts accidentally entering the formal sequence.
 
+## Apply the protagonist lens
+
+For this project, the first protagonist is the programmer displaced by AI and automation. Do not confuse that fictional role with the real Codex assistant.
+
+When a scene involves him, test it against his knowledge and current stage:
+
+- What has he personally seen, been told, or reasonably inferred? Do not give him hidden institutional or future knowledge.
+- Early on, he believes ability, responsibility, and superior use of AI will preserve his position.
+- His self-protection, income, professional pride, need to be useful, and distance from people already displaced should explain his choices.
+- He actively turns tacit experience, exceptions, and responsibility boundaries into rules, even as that work removes the need for him.
+- After dismissal, identity shifts such as “transition period,” “freelancer,” or later “protected recipient” must accumulate through lived pressure rather than sudden ideological awakening.
+- Collective victory, status, and enemies may enter his search for meaning only when the historical stage supports them.
+
+For the special-operations protagonist, check obedience, protection, sacrifice, mission authority, information limits, and the growing recognition that order is not the same as justice. Use `$special-operations-story-review` when the task requires detailed military, command-chain, or mission-plausibility review.
+
 ## Apply minimal, logical revisions
 
 Prefer changes that preserve events and character choices:
@@ -72,6 +89,10 @@ Do not weaken a real dilemma by making one side foolish or malicious. “Darknes
 
 When another process is editing concurrently, re-read the target immediately before patching. If the intended fix has already landed, do not duplicate it; update only the review status if needed.
 
+When the user or recurring task explicitly authorizes automatic small fixes, edit only if the answer is unique, local, and does not change confirmed canon, character fate, or a major plot direction. Suitable examples include a mathematically wrong duration, an impossible month or week, a duplicated chapter number after the formal version is already known, or one sentence that directly contradicts established facts. Use `apply_patch`, then read the surrounding passage to verify the result.
+
+Do not silently choose when multiple repairs are defensible, when a pending canon item is involved, when two mutually exclusive drafts compete for canonical status, or when the repair would create broad downstream changes. Preserve the files and present one or two clear options instead.
+
 ## Maintain the review history
 
 Treat historical scores and prior diagnoses as append-only evidence:
@@ -83,6 +104,14 @@ Treat historical scores and prior diagnoses as append-only evidence:
 - do not claim an issue is resolved until the prose or file status confirms it.
 
 If a competing draft is preserved, make its non-canonical status explicit in the file itself and note the resolution in the review log.
+
+## Recurring-loop notification policy
+
+Notify only when a meaningful small fix was completed, a new contradiction or plausibility gap appeared, an earlier risk materially escalated, or the user must make a structural choice.
+
+Stay quiet when nothing changed, the changed material has no actionable defect, an already reported issue is still waiting in the same state, or a healthy file was merely inspected. The periodic trigger and the fact that work was performed are never sufficient reasons to notify. Keep any notification short: identify the file or chapter, why the issue matters, and either the exact minimal fix or the choice required.
+
+Scheduling frequency belongs to the external automation. Do not create, update, or delete a schedule unless the user explicitly asks.
 
 ## Verify the result
 
